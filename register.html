@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+
+    <body bgcolor="red">
+        <!--Here use get not post-->
+
+        <div>
+            <form method="POST">
+                <span>First Name:</span> <input type="text" name="firstname"><br>
+                Last Name:  <input type="text" name="lastname"><br>
+                Gender: <br>
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="female">Female<br>
+                <input type="radio" name="gender" value="other">Other<br>
+                Birthday: <input type="date" name="Birthday"><br>
+                Email:      <input type="email" required name="email"><br>
+                Password: <input type="password" min="7" name="password"><br>
+                Pets: <br>
+                <input type="checkbox" name="Dog">Dog<br>
+                <input type="checkbox" name="Cat">Cat<br>
+                Cars:<br>
+                <select name="cars">
+                    <option value="Volvo" name="Volvo">Volvo</option>
+                    <option value="Audi" name="Audi">Audi</option>
+                </select><br>
+                <input type="submit" value="Register">
+                <input type="reset">
+            </form>
+        </div>
+
+        <br>
+
+        <a href="index.html">Back to home page</a>
+
+    </body>
+
+</html>
